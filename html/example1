@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Tab</title>
+</head>
+<body>
+    <h1 align="center"> MY DATA</h1> 
+    <form>
+        <label>Your Name</label><br>
+        <input type="text"placeholder="Name"required><br><br>
+        <label>Email Address</label><br>
+        <input type="Email"placeholder="Email"required><br><br>
+        <label>Password</label><br>
+        <input type="password"placeholder="Password"required><br><br>
+        
+        <label>Phone Number</label><br>
+        <input type="tel"placeholder="Phone Number"><br><br>
+        <label>How can we help you?</label><br>
+        <select>
+            <option>Choose one</option>
+            <option>Contact me</option>
+            <option>By mistake</option>
+            <option>Visit my branch</option>
+           </select>
+           <div>
+           <h1>Message</h1>
+   <textarea rows="9" cols="45"></textarea><br>
+   <input type="radio"name="Join our mailing list"value="text">
+   <label>Join our mailing list?</label>
+   </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My tab</title>
+    <style>
+     #a{
+        width:450px;
+        height:250px;
+        border:2px;
+        border-color:black;
+        border-style: groove;
+        margin-left: 250px;
+        background-color: blue;
+      }
+     .b{
+        width:450px;
+        height:250px;
+        border:2px;
+        border-color:black;
+        border-style:groove;
+        margin-left: 250px;
+        background-color: blueviolet;
+     }
+     h1{
+        background-color: black;
+        color: white;
+     }
+     </style>
+</head>
+<body>
+    <div id="a">
+        <h1 align="center">Content</h1><hr>
+        <h2>Content is not just words; it's everything that provides meaning to a webpage</h2>
+    </div><br><br>
+    <div class="b">
+        <h1 align="center">Webpage</h1><hr>
+        <h2>A web page is a document that contains information on the World Wide Web</h2>
+    </div>
+</body>
+</html>

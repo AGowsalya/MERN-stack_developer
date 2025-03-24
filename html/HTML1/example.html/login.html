@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <h2>User Name</h1>
+        <input id="a" onclick="updates()" type="text" placeholder="Enter your name"><br>
+        <p id="b"></p>
+        <h2>Password</h2>
+<input type="password" placeholder="Enter the password"><br><br>
+
+<button onclick="redirect()">login</button>                                                                                                                                                         
+<script>
+    function updates()
+    {
+        var para=document.getElementById('b')
+        var inp=document.getElementById('a')
+        if(inp.value==" ")
+    {
+        para.textContent="Please enter value"
+    inp.style.borderColor="red"
+    }
+    }
+    function redirect()
+    {
+        window.open("./about.html")
+    }
+</script>
+</body>
+</html>
