@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >abigowsalya@3gmail.com</h1>
+    <form>
+   Number1<input type="text" placeholder="number1" id="num1"><br><br>
+   Number2<input type="text" placeholder="number2" id="num2"><br>
+    <p id="ans">0</p>
+    <input type="button" onclick="calculate()"value="Add"><br><br>
+    <input type="button" onclick="calculatee()"value="Sub"><br><br>
+    <input type="button" onclick="calculateee()"value="Multiple"><br><br>
+    <input type="button" onclick="calculateeee()"value="Divide"><br><br>
+    </form>
+    <script>
+        function calculate()
+        {
+            var a=document.getElementById("num1")
+            var b=document.getElementById("num2") 
+            var c=Number(a.value)+Number(b.value)
+            var answer=document.getElementById("ans")
+            answer.textContent=c
+        }
+        function calculatee()
+        {
+            var a=document.getElementById("num1")
+            var b=document.getElementById("num2") 
+            var c=Number(a.value)-Number(b.value)
+            var answer=document.getElementById("ans")
+            answer.textContent=c
+        }
+        function calculateee()
+        {
+            var a=document.getElementById("num1")
+            var b=document.getElementById("num2") 
+            var c=Number(a.value)*Number(b.value)
+            var answer=document.getElementById("ans")
+            answer.textContent=c
+        }
+        function calculateeee()
+        {
+            var a=document.getElementById("num1")
+            var b=document.getElementById("num2") 
+            var c=Number(a.value)/Number(b.value)
+            var answer=document.getElementById("ans")
+            answer.textContent=c
+        }
+    </script>
+</body>
+</html>

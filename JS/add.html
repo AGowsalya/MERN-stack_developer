@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >abigowsalya@3gmail.com</h1>
+    <form>
+    <input type="number" placeholder="number1" id="num1"><br><br>
+    <input type="number" placeholder="number2" id="num2"><br><br>
+    <input type="button" onclick="myfunction()"value="ADD"></button><br><br>
+
+    <input type="number" placeholder="Added value" id="answer">
+    </form>
+    <script>
+        var a=document.getElementById("change")
+        function myfunction()
+        {
+            var a=document.getElementById("num1")
+            var b=document.getElementById("num2") 
+            var c=Number(a.value)+Number(b.value)
+            var answer=document.getElementById("answer")
+            answer.value=c
+        }
+    </script>
+</body>
+</html>

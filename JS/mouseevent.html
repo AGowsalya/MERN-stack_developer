@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="inp">Abii irukku</button>
+    <script>
+        var buttons=document.getElementById("inp")
+        buttons.addEventListener("click",function(event)
+    {
+        buttons.textContent="Gowsii irukkumo"
+    })
+    buttons.addEventListener("mouseover",function(event)
+    {
+        buttons.textContent="Nila irukkum irukkum"
+    })
+    buttons.addEventListener("mouseout",function(event)
+    {
+        buttons.textContent="Milkyy appdiya"
+    })
+    </script>
+</body>
+</html>
